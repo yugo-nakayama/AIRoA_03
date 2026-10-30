@@ -1,0 +1,3 @@
+# Install after requirements.txt. Genesis versions may require a platform-specific torch build.
+torch>=2.2
+genesis-world>=0.2

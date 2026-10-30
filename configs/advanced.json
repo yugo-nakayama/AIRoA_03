@@ -1,0 +1,44 @@
+{
+  "seed": 11,
+  "camera": {
+    "position": [0.55, 0.0, 1.3],
+    "look_at": [0.55, 0.0, 0.0],
+    "up": [1.0, 0.0, 0.0],
+    "resolution": [640, 480],
+    "vertical_fov_deg": 50.0
+  },
+  "workspace": {
+    "x": [0.36, 0.7],
+    "y": [-0.27, 0.29],
+    "safe_z": 0.32,
+    "approach_z": 0.23,
+    "object_height_m": 0.04
+  },
+  "perception": {
+    "min_height_m": 0.012,
+    "max_height_m": 0.095,
+    "min_area_px": 70,
+    "min_confidence": 0.72,
+    "min_margin": 0.24,
+    "max_entropy": 0.68,
+    "max_depth_mad_m": 0.006,
+    "closed_loop_max_correction_m": 0.045
+  },
+  "grasp": {
+    "hand_down_offset_m": 0.11,
+    "base_force_n": -1.5,
+    "force_limit_n": -3.0,
+    "finger_object_threshold_m": 0.0055,
+    "required_lift_delta_m": 0.055,
+    "max_attempts_per_object": 3
+  },
+  "bins": {
+    "circle": [0.38, -0.45],
+    "square": [0.56, -0.45],
+    "triangle": [0.74, -0.45]
+  },
+  "recording": {
+    "fps": 25,
+    "record_every_steps": 4
+  }
+}
