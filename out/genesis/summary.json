@@ -1,14 +1,14 @@
 {
-  "objects_attempted": 7,
-  "objects_succeeded": 5,
-  "success_rate": 0.7142857142857143,
-  "classification_accuracy": 0.8571428571428571,
+  "objects_attempted": 21,
+  "objects_succeeded": 14,
+  "success_rate": 0.6666666666666666,
+  "classification_accuracy": 0.9523809523809523,
   "mean_attempts": 1.0,
   "failure_distribution": {
     "empty_grasp": 1,
-    "slip": 1
+    "slip": 6
   },
   "genesis_executed": true,
   "seed": 11,
-  "total_expected_objects": 12
+  "total_expected_objects": 30
 }

@@ -5,7 +5,7 @@ Franka Panda と固定上方 RGB-D カメラを使い、`circle / square / trian
 > **検証範囲（この環境での実測）**: オフライン（pytest 9/9、`test_offline.py` pass）および Genesis GPU（RTX 4090, `gs.cuda`）実行済み。
 > - 1 episode: success_rate **1.0**（3/3）
 > - 2 episodes: success_rate **0.71**（5/7）、classification_accuracy **0.86**
-> - 再現動画: `out/genesis/PAI_final_demo_repro_03_advanced.mp4`
+> - 再現動画: `out/genesis/PAI_final_demo_repro_03_advanced.mp4`（5 episodes / 約150秒、success_rate 0.67）
 > - 実行時に overhead カメラ遮蔽・完了物体の再選択ループを回避する修正を `genesis3d/genesis_sort_advanced.py` に反映済み。
 
 ## 1. 上級編で追加したもの
